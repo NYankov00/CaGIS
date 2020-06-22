@@ -1,3 +1,7 @@
+
+<!doctype html>
+<html lang="en">
+
 <head>
     <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css"
         type="text/css">
@@ -20,6 +24,7 @@
     <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
     <script src="https://rawcdn.githack.com/walkermatt/ol3-layerswitcher/master/src/ol3-layerswitcher.js"></script>
 
+    <title>INSPIRE GN, ArcGIS Server with OpenLayers example</title>
 </head>
 
 <body>
@@ -194,41 +199,6 @@
         map.addControl(new ol.control.LayerSwitcher(map));
     </script>
 </body>
-@extends('layout')
 
-@section ('content')
-<div class="categories">
-
-    <article class="container">
-        <img src="{{ URL::to('/images/about.jpg') }}" alt="Avatar" class="image" style="width:100%">
-        <div class="middle">
-            <div class="text"><a href="####">За нас</a></div>
-        </div>
-    </article>
-
-    <article class="container">
-        <img src="{{ URL::to('/images/services.jpg') }}" alt="Avatar" class="image" style="width:100%">
-        <div class="middle">
-            <div class="text"><a href="####">Услуги</a></div>
-        </div>
-    </article>
-
-    <article class="container">
-        <img src="{{ URL::to('/images/projects.jpg') }}" alt="Avatar" class="image" style="width:100%">
-        <div class="middle">
-            <div class="text"><a href="####">Проекти</a></div>
-        </div>
-    </article>
-
-    <article class="container">
-        <img src="{{ URL::to('/images/contacts.jpg') }}" alt="Avatar" class="image" style="width:100%">
-        <div class="middle">
-            <div class="text"><a href="####">Контакти</a></div>
-        </div>
-    </article>
-
-
-
-</div>
-
+</html>
 @endsection
